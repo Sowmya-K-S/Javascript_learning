@@ -54,4 +54,32 @@ console.log(bool__Value) //true
 console.log(typeof bool__Value) //boolean
 
 
+//***********OPERATIONS************
+
+let val = - 6
+
+//performing negation of a variable
+let neg_value = -val
+
+console.log(neg_value)
+console.log(val+neg_value)
+
+// power of
+console.log(2**3)
+
+//string concatenation
+str1 = "Hello"
+str2 = " All"
+console.log(str1+str2) // Hello All
+
+console.log("1" + 2) //12
+console.log(1 + "2") //12
+console.log("1" + 2 + 2) //122
+console.log(1 + 2 + "2")//32
+
+// Not proper way to write
+console.log(+true) //1
+console.log(+"")  //0
+
+
 
