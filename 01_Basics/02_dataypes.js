@@ -34,3 +34,40 @@ console.log(typeof(1.23)) // number
 //type of can be used without parethesis also
 console.log(typeof undefined) //undefined
 console.log(typeof null) //object
+
+
+//DATATYPES SUMMARY
+
+/* Types of datatypes
+-> primitive (call by value) - 7 types
+   - String
+   - Number
+   - Boolean 
+   - null
+   - undefined
+   - Symbol
+   - BigInt
+
+-> non primitive (Reference)
+   - Array
+   - Objects
+   - functions
+
+
+NOTE: Javascript is dynamically typed language
+*/
+
+//Usage of Symbol datatype
+
+const id = Symbol('123')
+console.log('type of id is',typeof id) //symbol
+
+const id2 = Symbol('123')
+
+console.log(id == id2) // false
+
+// This indicates the purpose of symbol
+// even if we pass same value in the Symbol(), its responsibility is to make theem unique
+
+let arr = [1, 2, 3]
+console.log(typeof arr) //object  
