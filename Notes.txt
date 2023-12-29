@@ -1,0 +1,8 @@
+********* MEMORY CONCEPT ********
+Stack 
+-> primitive types
+-> call by value is used
+
+Heap 
+-> non primitive types
+-> call by reference is used
